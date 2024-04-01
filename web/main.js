@@ -14,6 +14,7 @@ function drawCircle(x, y, radius, color) {
 /** Helper function to draw a line between two points */
 function drawLine(coords1, coords2) {
     ctx.strokeStyle = 'white';
+    ctx.lineWidth = 4; // Set the line width to 5 pixels
     ctx.beginPath();
     ctx.moveTo(coords1.x, coords1.y);
     ctx.lineTo(coords2.x, coords2.y);
