@@ -129,7 +129,7 @@ def run():
         c1 = (PIVOT[0] + (l1 * sin(a1)), PIVOT[1] - (l1 * cos(a1)))
         c2 = (c1[0] + (l2 * sin(a2)), c1[1] - (l2 * cos(a2)))
 
-        # Event handling to prevent the window from crashing/freezing
+        # Event handling to prevent the window from crashing/freezing (pygame things)
         for event in pygame.event.get():
             if event.type == QUIT:
                 pygame.quit()
