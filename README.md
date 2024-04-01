@@ -5,3 +5,7 @@ They both use the same method to solve the differential equations of equations o
 
 ## Todo:
 - [ ] Create sliders for the values
+
+## References:
+- [MyPhysicsLab](https://www.myphysicslab.com/pendulum/double-pendulum-en.html) - Very useful information, and formulas for the simulation
+- [TheCodingTrain](https://www.youtube.com/watch?v=uWzPe_S-RVE) - Inspired me to make this simulation
